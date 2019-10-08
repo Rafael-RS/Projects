@@ -1,10 +1,8 @@
 def isprime(num):
-    cont = 0
     for c in range(2, num):
         if num % c == 0:
-            cont += 1
-            break
-    return False if cont != 0 else True
+            return False
+    return True
 
 
 def prox_primo(num):
